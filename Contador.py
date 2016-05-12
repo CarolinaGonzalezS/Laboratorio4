@@ -7,3 +7,15 @@ def contador(frase):
         print("palabra ",i,": ",palabras)
 
 contador(frase)
+
+def creartxt():
+    archi=open('datos.txt', 'w')
+    archi.close()
+
+def grabartxt():
+    archi=open('datos.txt', 'a')
+    archi.write('')
+    archi.close()
+
+creartxt()
+grabartxt()
